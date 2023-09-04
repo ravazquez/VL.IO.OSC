@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="S9EuadUceOoMWBK1eZXzUK" LanguageVersion="2023.5.3-0157-gcbac65ecd1" Version="0.128">
-  <NugetDependency Id="P0R369bokpAPMN6cZoWzt3" Location="VL.CoreLib" Version="2023.5.3-0157-gcbac65ecd1" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="S9EuadUceOoMWBK1eZXzUK" LanguageVersion="2023.5.3-0164-g883a868a2e" Version="0.128">
+  <NugetDependency Id="P0R369bokpAPMN6cZoWzt3" Location="VL.CoreLib" Version="2023.5.3-0164-g883a868a2e" />
   <Patch Id="RNg6extPzPdMdaB97BQ37w">
     <Canvas Id="R5d8ZEkbFhON8aOGcSTrTu" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -120,7 +120,6 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OSCClient" />
             </p:NodeReference>
-            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="M4Ml45G1urRNfmxUWsxeQF" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="SeHqpUW22tVNPgZYFJhEXF" Name="Server" Kind="InputPin" />
             <Pin Id="HJzYXJXTEwdMiR8WD9DZRh" Name="Port" Kind="InputPin" />
@@ -250,6 +249,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RXlDIKwF9NONL4X6Sk8Q0q" Location="VL.Skia" Version="2023.5.3-0157-gcbac65ecd1" />
+  <NugetDependency Id="RXlDIKwF9NONL4X6Sk8Q0q" Location="VL.Skia" Version="2023.5.3-0164-g883a868a2e" />
   <NugetDependency Id="DcbnPRoJhzUO3yAg6Xi2U5" Location="VL.IO.OSC" Version="0.0.0.0" />
 </Document>
