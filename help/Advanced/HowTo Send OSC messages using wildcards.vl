@@ -60,7 +60,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="KPKaxb46kNFPIqx6lED9m2" Name="This is an example for *" Bounds="96,415,620,266">
+          <Overlay Id="KPKaxb46kNFPIqx6lED9m2" Name="This is an example for the * wildcard" Bounds="96,415,620,266">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
           <Overlay Id="UpxJcTetJ33OlqQTy7HvL9" Name="See also" Bounds="95,711,281,105">
