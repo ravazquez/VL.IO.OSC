@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="QueMvixH1heMCM1AlCwwvc" LanguageVersion="2023.5.3-0157-gcbac65ecd1" Version="0.128">
-  <NugetDependency Id="P811pnl25s0MXPoACnvUg1" Location="VL.CoreLib" Version="2023.5.3-0157-gcbac65ecd1" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="QueMvixH1heMCM1AlCwwvc" LanguageVersion="2023.5.3-0164-g883a868a2e" Version="0.128">
+  <NugetDependency Id="P811pnl25s0MXPoACnvUg1" Location="VL.CoreLib" Version="2023.5.3-0164-g883a868a2e" />
   <Patch Id="Q3gKPUdjBJdOfHLi5AQGIy">
     <Canvas Id="KCPeAumC94tPyyjZ5QVp0K" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -183,7 +183,7 @@
             <Pin Id="Pizs3SrdAxbOOlhw0xae9y" Name="Is Open" Kind="OutputPin" />
             <Pin Id="SMoU7t6dUEvO4cHFeH6YZP" Name="Bundle Size Exceeded" Kind="OutputPin" />
           </Node>
-          <Overlay Id="CcZHrmYp8O8NYYjEEFPdUZ" Name="Now get your data!" Bounds="560,250,364,306">
+          <Overlay Id="CcZHrmYp8O8NYYjEEFPdUZ" Name="Now get your data!" Bounds="560,250,364,331">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
           <Node Bounds="591,199,105,19" Id="CKSxOWJuKwdMGMUpOv843S">
@@ -241,10 +241,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="Dt1EbVAGOhdLdxY4COVV0v" Name="See also" Bounds="559,603,366,133">
+          <Overlay Id="Dt1EbVAGOhdLdxY4COVV0v" Name="See also" Bounds="361,627,366,133">
             <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
           </Overlay>
-          <Pad Id="IddSPFzJ8V9LgcAj5cQjxb" Bounds="572,703,238,17" ShowValueBox="true" isIOBox="true" Value="..\Basics\HowTo Receive OSC messages.vl">
+          <Pad Id="IddSPFzJ8V9LgcAj5cQjxb" Bounds="374,727,238,17" ShowValueBox="true" isIOBox="true" Value="..\Basics\HowTo Receive OSC messages.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -254,7 +254,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="LwFf5y4MoQlOVI57rV8UEv" Bounds="572,677,238,17" ShowValueBox="true" isIOBox="true" Value="..\Basics\HowTo Send OSC messages.vl">
+          <Pad Id="LwFf5y4MoQlOVI57rV8UEv" Bounds="374,701,238,17" ShowValueBox="true" isIOBox="true" Value="..\Basics\HowTo Send OSC messages.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -264,7 +264,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="EBnSkHR4QXIOjMcK0mVpjT" Bounds="572,651,316,17" ShowValueBox="true" isIOBox="true" Value="HowTo Handle custom data types using overrides.vl">
+          <Pad Id="EBnSkHR4QXIOjMcK0mVpjT" Bounds="374,675,316,17" ShowValueBox="true" isIOBox="true" Value="HowTo Handle custom data types using overrides.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -288,7 +288,6 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OSCReceiver (Object)" />
             </p:NodeReference>
-            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="FVNEQBZBGDPOIzwbSLYaKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Tctxf70IxffM16mw5IeVw3" Name="Input" Kind="InputPin" />
             <Pin Id="Oh3PanTKTUqOxD1Wz8EoR0" Name="Object In" Kind="InputPin" />
