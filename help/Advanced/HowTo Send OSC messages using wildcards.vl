@@ -28,7 +28,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="AZmd47r3hXfPPGqFoZm17C" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="UK7jRyZTWSaLbz5B7MQ2x1" Name="Server" Kind="InputPin" />
-            <Pin Id="HDsYe4ZoPNWLs2WC9ZLIcz" Name="Port" Kind="InputPin" />
+            <Pin Id="HDsYe4ZoPNWLs2WC9ZLIcz" Name="Port" Kind="InputPin" DefaultValue="4451" />
             <Pin Id="TZObMMo5TeHNmeMCyxtrx5" Name="Servers" Kind="InputPin" IsHidden="true" />
             <Pin Id="BcbQwUdybyGPefBVZnM3Wl" Name="Ports" Kind="InputPin" IsHidden="true" />
             <Pin Id="ERJIVR1RA7YLRngVukjqAY" Name="Maximum Bundle Size" Kind="InputPin" />
@@ -106,7 +106,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="IyiRUJc6m7XPznAmvuqfE7" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="O5nBMNoxxTRLdviAUjWp8t" Name="Listening IP" Kind="InputPin" />
-            <Pin Id="VdAVDoEhO4OPMjNDqA7cYD" Name="Port" Kind="InputPin" />
+            <Pin Id="VdAVDoEhO4OPMjNDqA7cYD" Name="Port" Kind="InputPin" DefaultValue="4451" />
             <Pin Id="MlWYpe8x3C8L0tGGquGhMZ" Name="Enable Data Preview" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
