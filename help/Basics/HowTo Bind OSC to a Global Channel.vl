@@ -196,10 +196,10 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="NNfy4yIELYkNCiDr8G1pod" Comment="" Bounds="555,1011,35,28" ShowValueBox="true" isIOBox="true" />
-          <Overlay Id="MI03UZkZAzOLYPEpzsY8Wn" Name="See also" Bounds="766,83,413,164">
+          <Overlay Id="MI03UZkZAzOLYPEpzsY8Wn" Name="See also" Bounds="766,247,413,164">
             <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
           </Overlay>
-          <Pad Id="FaExj9Gxc3TPdydQSnewcR" Bounds="779,182,360,17" ShowValueBox="true" isIOBox="true" Value="..\Advanced\HowTo Handle custom data types using overrides.vl">
+          <Pad Id="FaExj9Gxc3TPdydQSnewcR" Bounds="779,346,360,17" ShowValueBox="true" isIOBox="true" Value="..\Advanced\HowTo Handle custom data types using overrides.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -209,7 +209,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="F9i4KyNt0DdNwtI3uoHdvI" Bounds="779,130,204,17" ShowValueBox="true" isIOBox="true" Value="HowTo Send OSC messages.vl">
+          <Pad Id="F9i4KyNt0DdNwtI3uoHdvI" Bounds="779,294,204,17" ShowValueBox="true" isIOBox="true" Value="HowTo Send OSC messages.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -219,7 +219,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="LcrJl4WkBFTL9s4rNNRf4Q" Bounds="779,208,388,17" ShowValueBox="true" isIOBox="true" Value="..\Advanced\HowTo Handle custom data types using property names.vl">
+          <Pad Id="LcrJl4WkBFTL9s4rNNRf4Q" Bounds="779,372,388,17" ShowValueBox="true" isIOBox="true" Value="..\Advanced\HowTo Handle custom data types using property names.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -261,7 +261,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QmaJmk8fIozMLeLHGmkNCN" Bounds="779,156,204,17" ShowValueBox="true" isIOBox="true" Value="HowTo Receive OSC messages.vl">
+          <Pad Id="QmaJmk8fIozMLeLHGmkNCN" Bounds="779,320,204,17" ShowValueBox="true" isIOBox="true" Value="HowTo Receive OSC messages.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -340,6 +340,18 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="BJzhdzZiCaXLElwWRRKx7d" Bounds="114,244,524,19" ShowValueBox="true" isIOBox="true" Value="Defined OSC ins and outs will be available in a list within the Global Channel Browser ">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="RotBIDyvWl2MZJZ0a9e4pd" Name="Required reading" Bounds="766,91,413,125">
+            <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
+          </Overlay>
+          <Pad Id="PoXMnO8v9IeNNdzJ5qd9XF" Bounds="779,143,379,64" ShowValueBox="true" isIOBox="true" Value="- GlobalChannel node's help patch&#xD;&#xA;- Corelib\Reactive\Global Channel of own Datatype help patch&#xD;&#xA;- Corelib\Reactive\Global Channel of own Datatype help patch">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
