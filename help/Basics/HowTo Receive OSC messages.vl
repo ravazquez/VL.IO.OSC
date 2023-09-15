@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="KfH5x3FWu1zLVrHgrQoNOo" LanguageVersion="2023.5.3-0164-g883a868a2e" Version="0.128">
-  <NugetDependency Id="P811pnl25s0MXPoACnvUg1" Location="VL.CoreLib" Version="2023.5.3-0164-g883a868a2e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="KfH5x3FWu1zLVrHgrQoNOo" LanguageVersion="2023.5.3-0168-gac681433c2" Version="0.128">
+  <NugetDependency Id="P811pnl25s0MXPoACnvUg1" Location="VL.CoreLib" Version="2023.5.3-0168-gac681433c2" />
   <Patch Id="Q3gKPUdjBJdOfHLi5AQGIy">
     <Canvas Id="KCPeAumC94tPyyjZ5QVp0K" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -16,9 +16,6 @@
       <Patch Id="IXaBrl1OaaSP4PQ7JtBSGg">
         <Canvas Id="Tx2bBO1yT6tMWguLlM9fYa" CanvasType="Group">
           <Overlay Id="OyBpFggvHs7MDFgyUTUS06" Name="First, configure your OSCServer" Bounds="95,80,425,224">
-            <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
-          </Overlay>
-          <Overlay Id="KEHrZ5BvExaNUOQIO6YrvM" Name="... including spreads!" Bounds="95,1082,221,267">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
           <Node Bounds="124,258,105,19" Id="OIY31RtN1alLEGwetT6NFw">
@@ -74,12 +71,12 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Kz2YHX4ZIvwOwjhTOxlccl" Comment="Address" Bounds="183,1152,57,15" ShowValueBox="true" isIOBox="true" Value="/speeds">
+          <Pad Id="Kz2YHX4ZIvwOwjhTOxlccl" Comment="Address" Bounds="746,918,57,15" ShowValueBox="true" isIOBox="true" Value="/speeds">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="HLJrn0ISDnSNfVlCgL1VJc" Comment="" Bounds="141,1233,44,95" ShowValueBox="true" isIOBox="true">
+          <Pad Id="HLJrn0ISDnSNfVlCgL1VJc" Comment="" Bounds="704,1011,44,95" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -89,7 +86,7 @@
               </p:TypeArguments>
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="139,1178,88,19" Id="RGqL1Yj3Cc6LbMVh3M0bWs">
+          <Node Bounds="702,956,88,19" Id="RGqL1Yj3Cc6LbMVh3M0bWs">
             <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OSCReceiver" />
@@ -106,7 +103,7 @@
           <Overlay Id="K5PojyfZkU5Nqh8iasJMuQ" Name="Now get your message!" Bounds="95,611,426,212">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Overlay Id="GKPf1ob19jUN9qFtdpfueX" Name="You can also listen for other messages of any primitive data type ..." Bounds="95,854,678,198">
+          <Overlay Id="GKPf1ob19jUN9qFtdpfueX" Name="You can also listen for other messages of any primitive data type" Bounds="95,854,836,290">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
           <Pad Id="N5XKIcJnTdbNQjuh43AUqs" Comment="On Data" Bounds="196,761,35,35" ShowValueBox="true" isIOBox="true" />
@@ -261,12 +258,12 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="TvkGCOCWLxKOUfXc1KvnMZ" Comment="Address" Bounds="160,1767,71,15" ShowValueBox="true" isIOBox="true" Value="/emitParticles">
+          <Pad Id="TvkGCOCWLxKOUfXc1KvnMZ" Comment="Address" Bounds="160,1563,71,15" ShowValueBox="true" isIOBox="true" Value="/emitParticles">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="BQArSOoC1TvL3lrvv8hoCc" Bounds="222,1797,151,19" ShowValueBox="true" isIOBox="true" Value="&lt; OSCReceiver (Empty)">
+          <Pad Id="BQArSOoC1TvL3lrvv8hoCc" Bounds="222,1593,151,19" ShowValueBox="true" isIOBox="true" Value="&lt; OSCReceiver (Empty)">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -275,15 +272,15 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KwYiD0EeB8qMmwoxZqitBn" Comment="Address" Bounds="183,1480,53,15" ShowValueBox="true" isIOBox="true" Value="/particle1">
+          <Pad Id="KwYiD0EeB8qMmwoxZqitBn" Comment="Address" Bounds="183,1276,53,15" ShowValueBox="true" isIOBox="true" Value="/particle1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="JINklYsUT0DM7OjUv6j8S1" Name="And receive messages without arguments" Bounds="95,1699,407,186">
+          <Overlay Id="JINklYsUT0DM7OjUv6j8S1" Name="And receive messages without arguments" Bounds="95,1495,407,186">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Node Bounds="139,1504,88,19" Id="UZm7KKOxmrwLO4ZZV40QIw">
+          <Node Bounds="139,1300,88,19" Id="UZm7KKOxmrwLO4ZZV40QIw">
             <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OSCReceiver" />
@@ -297,7 +294,7 @@
             <Pin Id="RrjjGjukqRhOSUPZPLTWWQ" Name="On Data" Kind="OutputPin" />
             <Pin Id="R4wUGptgsipN7CSQoiuWZn" Name="Address" Kind="OutputPin" />
           </Node>
-          <Node Bounds="139,1554,238,19" Id="VZ772eBR68ILItQAQwD7MI">
+          <Node Bounds="139,1350,238,19" Id="VZ772eBR68ILItQAQwD7MI">
             <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
@@ -308,12 +305,12 @@
             <Pin Id="FduDsGmoHiSOtWAnfo7vSd" Name="Item 2" Kind="OutputPin" />
             <Pin Id="K5pd1dqrZGIMNE7ufe8B18" Name="Item 3" Kind="OutputPin" />
           </Node>
-          <Pad Id="TNYOWlV0oyCMcrkn45cQKF" Comment="Speed" Bounds="141,1607,35,15" ShowValueBox="true" isIOBox="true" Value="vvvv">
+          <Pad Id="TNYOWlV0oyCMcrkn45cQKF" Comment="Speed" Bounds="141,1403,35,15" ShowValueBox="true" isIOBox="true" Value="vvvv">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SMyAM7tHE50OwllkV2TZvU" Comment="Color" Bounds="374,1607,20,15" ShowValueBox="true" isIOBox="true" Value="1, 0.84313726, 0, 1">
+          <Pad Id="SMyAM7tHE50OwllkV2TZvU" Comment="Color" Bounds="374,1403,20,15" ShowValueBox="true" isIOBox="true" Value="1, 0.84313726, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
               <CategoryReference Kind="Category" Name="Color" />
@@ -322,16 +319,16 @@
               <p:showvalue p:Type="Boolean">false</p:showvalue>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Cdt8zvxl3XXNgw7zkU2Rr8" Comment="Position" Bounds="258,1607,35,28" ShowValueBox="true" isIOBox="true" Value="0.42, 0.42">
+          <Pad Id="Cdt8zvxl3XXNgw7zkU2Rr8" Comment="Position" Bounds="258,1403,35,28" ShowValueBox="true" isIOBox="true" Value="0.42, 0.42">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
               <CategoryReference Kind="Category" Name="2D" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="NqBLSprfLnOLf4NI4WD7Ev" Name="You can also receive messages of mixed types using tuples" Bounds="95,1379,480,288">
+          <Overlay Id="NqBLSprfLnOLf4NI4WD7Ev" Name="You can also receive messages of mixed types using tuples" Bounds="95,1175,480,288">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Node Bounds="124,1791,73,19" Id="QcxXft8iUsCLcCDKQCyjUJ">
+          <Node Bounds="124,1587,73,19" Id="QcxXft8iUsCLcCDKQCyjUJ">
             <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OSCReceiver (Empty)" />
@@ -345,7 +342,7 @@
             <Pin Id="P1OlI3wHpmAMtbL4IwUyjW" Name="Is Learning" Kind="OutputPin" />
             <Pin Id="VR2ilYFEqNEPoT8yBc7pTj" Name="Address" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Pad Id="O3IJtldust2Ma1xeaBZG1r" Comment="On Data" Bounds="126,1833,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="O3IJtldust2Ma1xeaBZG1r" Comment="On Data" Bounds="126,1629,35,35" ShowValueBox="true" isIOBox="true" />
           <Overlay Id="BY3VH8ccVFcMQcnNq6lwd5" Name="See also" Bounds="552,258,421,167">
             <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
           </Overlay>
@@ -390,9 +387,9 @@
             </p:ValueBoxSettings>
           </Pad>
           <ControlPoint Id="UEqn8MTz2LwNwQZd4eZytm" Bounds="126,688" />
-          <ControlPoint Id="JdTXjk5S20XNh4Y4TtL331" Bounds="126,1159" />
+          <ControlPoint Id="JdTXjk5S20XNh4Y4TtL331" Bounds="126,937" />
           <ControlPoint Id="BxEwzaoIKqyNberSuCiWb1" Bounds="126,937" />
-          <ControlPoint Id="E2qd9MHU5qlMN7Qtx9S0oA" Bounds="126,1485" />
+          <ControlPoint Id="E2qd9MHU5qlMN7Qtx9S0oA" Bounds="126,1281" />
           <ControlPoint Id="Hb3w6deFdNTNgd9LPdSnpS" Bounds="126,937" />
           <ControlPoint Id="A9X7gw61xtpNC1T9O5eNh0" Bounds="126,937" />
           <Overlay Id="A9ASoD1wBYLPJ0UQjHBp9L" Name="You can preview the data you are receiving" Bounds="95,335,425,247">
@@ -431,6 +428,15 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="Iapl1I0gdYELpcd5WNUJ3q" Bounds="173,526,287,41" ShowValueBox="true" isIOBox="true" Value="You can use the input pins in OSCServer to enable, sort and reset the data preview">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LQMD2MaeO1CNFCEnf3a6bN" Bounds="761,1011,119,19" ShowValueBox="true" isIOBox="true" Value="Including spreads!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
