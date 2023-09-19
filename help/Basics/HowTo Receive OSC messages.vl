@@ -100,7 +100,7 @@
             <Pin Id="T1xD6HPsw07L5h9BXImMjZ" Name="On Data" Kind="OutputPin" />
             <Pin Id="OizwFMYaL4ZLcGSdlHakvo" Name="Address" Kind="OutputPin" />
           </Node>
-          <Overlay Id="K5PojyfZkU5Nqh8iasJMuQ" Name="Now get your message!" Bounds="95,611,426,212">
+          <Overlay Id="K5PojyfZkU5Nqh8iasJMuQ" Name="Now get your message!" Bounds="95,611,493,212">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
           <Overlay Id="GKPf1ob19jUN9qFtdpfueX" Name="You can also listen for other messages of any primitive data type" Bounds="95,854,836,290">
@@ -205,7 +205,7 @@
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="T7P6G4C7LzBL4RN4TWrGOs" Bounds="265,706,242,50" ShowValueBox="true" isIOBox="true" Value="Address and data type must match what comes from the client">
+          <Pad Id="T7P6G4C7LzBL4RN4TWrGOs" Bounds="320,661,236,138" ShowValueBox="true" isIOBox="true" Value="Note how the OSCReceiver node is adaptive: its output type is only defined once you connect something to it, and you need to know what type of data you're expecting on a specific OSC address and connect the corresponding type downstream">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
