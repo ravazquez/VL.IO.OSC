@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="TqqBGEcjoa7MEe48YvyayR" LanguageVersion="2023.5.3-0164-g883a868a2e" Version="0.128">
-  <NugetDependency Id="VAfHYlLhO8AMV1lqIWCZOE" Location="VL.CoreLib" Version="2023.5.3-0164-g883a868a2e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="TqqBGEcjoa7MEe48YvyayR" LanguageVersion="2023.5.3-0189-g3b1140fa91" Version="0.128">
+  <NugetDependency Id="VAfHYlLhO8AMV1lqIWCZOE" Location="VL.CoreLib" Version="2023.5.3-0189-g3b1140fa91" />
   <Patch Id="JLHZ1cVYh5tPSBf9kOUon9">
     <Canvas Id="Gv6AOC6DJebQLJLEAg2IuZ" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -37,17 +37,11 @@
               <Choice Kind="ProcessAppFlag" Name="OSCModule" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
-            <Pin Id="UrLIyDzFLYgLjZ1CmJb3Ry" Name="Bindings" Kind="InputPin" IsHidden="true">
-              <p:DefaultValue>
-                <Item Address="/speed" Binding_Type="Receive" Channel_Path="speed" Configuration_Name="MyIn1" />
-                <Item Address="/position" Binding_Type="Send" Channel_Path="positionOut" Configuration_Name="MyTarget" />
-                <Item Address="/position" Binding_Type="Receive" Channel_Path="position" Configuration_Name="MyIn2" />
-              </p:DefaultValue>
-            </Pin>
+            <Pin Id="UyHKH5BDOKRM76b6xTHqJl" Name="Bindings" Kind="InputPin" IsHidden="true" />
             <Pin Id="Ntn6wwfvdu9PPYsab4xuH9" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="UiEYLjRBEgPOcZW8mqg8X4" Name="Configuration" Kind="InputPin" />
           </Node>
-          <Node Bounds="118,321,405,19" Id="GTj9PMhhRuQL3PqmakSxkg">
+          <Node Bounds="118,321,205,19" Id="GTj9PMhhRuQL3PqmakSxkg">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -56,17 +50,16 @@
             <Pin Id="GjXk421dn10NGANw2QfJsc" Name="Input" Kind="InputPin" />
             <Pin Id="GoJhWx4TW6YNflLWxLVFUz" Name="Input 2" Kind="InputPin" />
             <Pin Id="StN8hxDtGFONHywgJgSyml" Name="Result" Kind="OutputPin" />
-            <Pin Id="HgKV3prcjoZNfagaP6OwMn" Name="Input 3" Kind="InputPin" />
           </Node>
           <Overlay Id="IjaM8xYHhv2NrtOGa9ggC1" Name="Configure your OSC inputs and outputs" Bounds="97,87,561,198">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="Amc98Qjnn6hNPWvS3JpLsl" Comment="Port" Bounds="189,176,35,15" ShowValueBox="true" isIOBox="true" Value="4446">
+          <Pad Id="Amc98Qjnn6hNPWvS3JpLsl" Comment="Port" Bounds="160,176,35,15" ShowValueBox="true" isIOBox="true" Value="4446">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="UmqhNvVaczZLqNIGwGNxrs" Comment="" Bounds="389,176,35,15" ShowValueBox="true" isIOBox="true" Value="4447">
+          <Pad Id="UmqhNvVaczZLqNIGwGNxrs" Comment="" Bounds="360,176,35,15" ShowValueBox="true" isIOBox="true" Value="4447">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -81,51 +74,36 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Vg1zeZfxZfTP0v2i9dJQhV" Comment="Name" Bounds="520,153,57,15" ShowValueBox="true" isIOBox="true" Value="MyTarget">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="MkX4v5dMz3YN1aKMCUN2qe" Comment="Port" Bounds="571,176,35,15" ShowValueBox="true" isIOBox="true" Value="4447">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Integer32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="118,199,74,19" Id="PmUqlwERdYEPF2oaUO0zKt">
+          <Node Bounds="118,199,125,19" Id="PmUqlwERdYEPF2oaUO0zKt">
             <p:NodeReference LastCategoryFullName="IO.OSC.Modules" LastDependency="VL.IO.OSC.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="OSCInConfig" />
+              <Choice Kind="ProcessAppFlag" Name="OSCConfig" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="FTmkEVInJvdPzMUVDswZ8a" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="EuWQgVsRug4NYkVbC4l6qu" Name="Name" Kind="InputPin" />
-            <Pin Id="ANcuOx6YPT2QFl8d7a9p6k" Name="Listening IP" Kind="InputPin" />
+            <Pin Id="ANcuOx6YPT2QFl8d7a9p6k" Name="IP" Kind="InputPin" DefaultValue="127.0.0.1" />
             <Pin Id="V1aAzLar340PQLO5BfGBX2" Name="Port" Kind="InputPin" />
+            <Pin Id="Bs3VQdOFSN9LrPutLl5FP6" Name="Maximum Bundle Size" Kind="InputPin" />
+            <Pin Id="LJvui3kX9dlMV22WEUCKwA" Name="OSCQuery IP" Kind="InputPin" />
+            <Pin Id="PGHY46Dr05UOkUaamfQgII" Name="OSCQuery Port" Kind="InputPin" />
+            <Pin Id="V296yn3YEUUOf14ZGGG4Uh" Name="OSCQuery Enabled" Kind="InputPin" />
             <Pin Id="DMTiH6x4SZnQZYvo3eB6Ck" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="318,199,74,19" Id="IC5xhY7wnbsNhZmOdcfoOb">
+          <Node Bounds="318,199,125,19" Id="IC5xhY7wnbsNhZmOdcfoOb">
             <p:NodeReference LastCategoryFullName="IO.OSC.Modules" LastDependency="VL.IO.OSC.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="OSCInConfig" />
+              <Choice Kind="ProcessAppFlag" Name="OSCConfig" />
             </p:NodeReference>
             <Pin Id="VV0nOGjxfULL0C0nbL5fRb" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="T3OLntZHg1BN8vOD4ZhEjg" Name="Name" Kind="InputPin" />
-            <Pin Id="SbVwGgN7rZQNM8OfOsEybC" Name="Listening IP" Kind="InputPin" />
+            <Pin Id="SbVwGgN7rZQNM8OfOsEybC" Name="IP" Kind="InputPin" DefaultValue="127.0.0.1" />
             <Pin Id="Jpyan8sMoxtObxMs26uhMY" Name="Port" Kind="InputPin" />
+            <Pin Id="Jcq9GH6b4fAM3DLYPQmI1f" Name="Maximum Bundle Size" Kind="InputPin" />
+            <Pin Id="IxWn60VuxZQLjfxAprKTuJ" Name="OSCQuery IP" Kind="InputPin" />
+            <Pin Id="AfiP1tdcvSgNlodFwxHY2F" Name="OSCQuery Port" Kind="InputPin" />
+            <Pin Id="Pr93gwFcdH2PGuutOkWcHZ" Name="OSCQuery Enabled" Kind="InputPin" />
             <Pin Id="TE8jSgBnCm2Lep2BrO82lD" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Node Bounds="518,199,82,19" Id="GGk3C5PxJ9OPT2Y3QbQuLL">
-            <p:NodeReference LastCategoryFullName="IO.OSC.Modules" LastDependency="VL.IO.OSC.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="OSCOutConfig" />
-            </p:NodeReference>
-            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
-            <Pin Id="L3sxf9Y3Sz5O2dAPuBtx9w" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="VhQYOOnnUYoLTWYgkS47SJ" Name="Name" Kind="InputPin" />
-            <Pin Id="P8cB8Pr7GweL36D1JaW0NU" Name="Server IP" Kind="InputPin" />
-            <Pin Id="Aq1eRA8KmECPbYC7ldbzbt" Name="Port" Kind="InputPin" />
-            <Pin Id="GV1mDv0kkf9PIIfpDjzu4A" Name="Maximum Bundle Size" Kind="InputPin" />
-            <Pin Id="HtpPPjD4LDMMffTlHUv1qC" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="BdBxq7JeCpVNbpXktqKiPO" Bounds="161,997,176,17" ShowValueBox="true" isIOBox="true" Value="HowTo Send OSC messages.vl">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -373,13 +351,10 @@
         <Link Id="E2bLCwCl2WrQG7Z4AUijNc" Ids="EutAAAuTMT9MXrueH19LyF,T3OLntZHg1BN8vOD4ZhEjg" />
         <Link Id="NugvlUimDEWOkyUUNykB3r" Ids="DMTiH6x4SZnQZYvo3eB6Ck,GjXk421dn10NGANw2QfJsc" />
         <Link Id="HHu6eTBvJJ4NaqljJwhUgX" Ids="TE8jSgBnCm2Lep2BrO82lD,GoJhWx4TW6YNflLWxLVFUz" />
-        <Link Id="Vuouu4W8YguNQxvgg0fAYh" Ids="Vg1zeZfxZfTP0v2i9dJQhV,VhQYOOnnUYoLTWYgkS47SJ" />
-        <Link Id="TccB0eKZp14NPlZ51uNL1T" Ids="HtpPPjD4LDMMffTlHUv1qC,HgKV3prcjoZNfagaP6OwMn" />
         <Link Id="A4isFHMzUrMOgKwFuNubAN" Ids="AW8GCuBQqmZLKvspAkyHh6,KdJHQPlMZV5PqGU2JI6gml" />
         <Link Id="CYHO3s8IB3xO5aNGhsOYxE" Ids="Sxux9U8C9BgLs0Rqso8s6w,F7OWSjN0ZfWOV1mf4a37EV" />
         <Link Id="RHxVfIxPV6SPiIbJkVKOOC" Ids="Amc98Qjnn6hNPWvS3JpLsl,V1aAzLar340PQLO5BfGBX2" />
         <Link Id="MDtWQMf3AnfQdjXDtTO5Dc" Ids="UmqhNvVaczZLqNIGwGNxrs,Jpyan8sMoxtObxMs26uhMY" />
-        <Link Id="OcQatvkhvQONDCNj9LPzLc" Ids="MkX4v5dMz3YN1aKMCUN2qe,Aq1eRA8KmECPbYC7ldbzbt" />
         <Link Id="GxAOqb9n9O6QH2bJ8V0aby" Ids="MHwRsy1cXJMMxtgZ6wq2DT,Jstm5eOToxEQX1uXP3p55r" />
         <Link Id="KaH45yHVjQMOE03jR1XFH6" Ids="QEgM6Byjdm7M76kFKNK88c,UOBlUALCQ5TOBDk8MCEVZn" />
         <Link Id="BeujRxbsxKuPdtSta19V2t" Ids="VpTCgbSY9qtPyonXrfRoCa,NNfy4yIELYkNCiDr8G1pod" />
